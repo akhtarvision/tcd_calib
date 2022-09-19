@@ -12,7 +12,12 @@ The increasing use of deep neural networks in safety-critical applications requi
 
 ![alt text](https://github.com/akhtarvision/tcd_calib/blob/main/fig1-a_img.png)
 
+Reliability diagrams. Top row: DNN-based detector (FCOS) trained using task-specific loss. Bottom row: Ours, trained with adding the proposed TCD loss.
+
+
 ![alt text](https://github.com/akhtarvision/tcd_calib/blob/main/calib_qual.jpg)
+
+Visual depiction of calibration results for out-of-domain detections with one-stage detector (left column) and one-stage detector trained with our TCD loss (right column)
 
 <!-- # Info
 Details and Code coming soon -->
