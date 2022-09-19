@@ -1,4 +1,4 @@
-# tcd_calib (in construction)
+# tcd_calib (code in construction)
 
 # Towards Improving Calibration in Object Detection Under Domain Shift (Accepted @NeurIPS22)
 
