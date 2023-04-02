@@ -21,13 +21,25 @@ Single GPU Quadro RTX 6000
 
 ## Installation
 
-This FCOS implementation is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). See original maskrcnn-benchmark.
+This implementation is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). See original maskrcnn-benchmark.
 
-For complete installation, follow [here](https://github.com/tianzhi0549/FCOS/blob/master/INSTALL.md)
+For complete installation, follow [here](INSTALL.md)
 
 ## Training and Evaluation
+For VGG based implementation
 
+### Training
 
+To train, run the following command
+```
+python tools/train_net.py --config-file ./configs/sim10k_VGG_16_FPN_4x.yaml
+```
+
+### Evaluation
+To evaluate, run the following command
+```
+python tools/test_net.py --config-file <CONFIG_PATH> MODEL.WEIGHT <WEIGHT_PATH>
+```
 
 ## D-ECE 
 
@@ -35,7 +47,7 @@ For Detection Expected Calibration Error evaluation, follow the guidelines [here
 
 ## Qualitative
 
-![](https://github.com/akhtarvision/tcd_calib/blob/main/calib_qual.jpg | width=100)
+![alt text](https://github.com/akhtarvision/tcd_calib/blob/main/calib_qual.jpg)
 
 Visual depiction of calibration results for out-of-domain detections with one-stage detector (left column) and one-stage detector trained with our TCD loss (right column)
 
@@ -53,6 +65,6 @@ year={2022},
 
 ## Acknowledgement
 
-This implementation is based on [FCOS](https://github.com/tianzhi0549/FCOS) and [Detection Calibration](https://pypi.org/project/netcal/)
+This codebase is implemented on [FCOS](https://github.com/tianzhi0549/FCOS) based implementation, [EPM](https://github.com/chengchunhsu/EveryPixelMatters) and [Detection Calibration](https://pypi.org/project/netcal/)
 
 
