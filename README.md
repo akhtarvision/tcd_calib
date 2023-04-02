@@ -15,7 +15,7 @@ Reliability diagrams. Top row: DNN-based detector (FCOS) trained using task-spec
 ## Setup
 
 This code is setup on:
-Linux, CUDA>=10.1, Python>=3.8, PyTorch>=1.7.0, torchvision==0.8.1
+Linux, CUDA>=10.1, Python>=3.8, PyTorch>=1.4.0, torchvision==0.2.1
 
 Single GPU Quadro RTX 6000
 
