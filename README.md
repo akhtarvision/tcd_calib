@@ -65,6 +65,6 @@ year={2022},
 
 ## Acknowledgement
 
-This codebase is implemented on [FCOS](https://github.com/tianzhi0549/FCOS) based implementation, [EPM](https://github.com/chengchunhsu/EveryPixelMatters) and [Detection Calibration](https://pypi.org/project/netcal/)
+This codebase implementation is based on [FCOS](https://github.com/tianzhi0549/FCOS), [EPM](https://github.com/chengchunhsu/EveryPixelMatters) and [Detection Calibration](https://pypi.org/project/netcal/)
 
 
